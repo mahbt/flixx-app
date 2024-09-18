@@ -1,2 +1,3 @@
 # Ignore environment variable files
-api.env
+*.env
+*.DS_Store
