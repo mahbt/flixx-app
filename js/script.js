@@ -260,7 +260,7 @@ function initSwiper() {
 }
 // Fetch data from TMDB API
 async function fetchAPIData(endpoint) {
-  const API_KEY = "a7dd93dcf11ee4cd5ecc5ab5d099e33a";
+  const API_KEY = "";
   const API_URL = "http://api.themoviedb.org/3/";
   showSpinner();
   const response = await fetch(
